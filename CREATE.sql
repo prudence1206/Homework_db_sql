@@ -11,6 +11,7 @@ CREATE TABLE public.albums (
 	album_id int4 NOT NULL,
 	album_name varchar(80) NULL,
 	album_duration time NULL,
+        album_year int4 NULL,
 	CONSTRAINT albums_pkey PRIMARY KEY (album_id)
 );
 
